@@ -21,10 +21,22 @@
   background-color: #e3e9f0;
   border-radius: 50%;
   margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.infographics__img svg {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .infographics__info {
+  padding: 1.3rem 0;
+  height: 100%;
   max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .infographics__info h4 {
@@ -32,6 +44,8 @@
   line-height: 1.5rem;
   font-weight: 700;
   text-align: left;
+  /* flex-grow: 1; */
+  margin: 0;
 }
 
 .infographics__info h3 {
@@ -39,4 +53,5 @@
   line-height: 2rem;
   font-size: 1.5rem;
   text-align: left;
+  margin: 0;
 }

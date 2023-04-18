@@ -1,3 +1,19 @@
+.infographics-page {
+  background: url("../../imgs/nebo-oduvanchik-cvetok-fon.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.infographics-page::after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 251, 251, 0.85);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .infographics__main {
   box-sizing: border-box;
   display: grid;
@@ -5,10 +21,14 @@
   grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(25%, 1fr));
   grid-gap: 2rem;
+  position: relative;
+  z-index: 2;
 }
 
 .infographics__title {
   margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
 }
 
 .infographics-page {

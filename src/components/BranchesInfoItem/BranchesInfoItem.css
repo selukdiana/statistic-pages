@@ -24,7 +24,9 @@
   font-weight: bold;
   color: rgba(231, 36, 36, 0.7);
 }
-
+.item__img svg {
+  color: rgba(231, 36, 36, 0.7);
+}
 .item__title {
   font-weight: 700;
   font-size: 20px;

@@ -1,4 +1,5 @@
-.home-page {
+.home-page h1 {
+  text-align: right;
 }
 
 .home-page__header {
@@ -26,6 +27,8 @@
 .home-page__header h1 {
   position: relative;
   z-index: 1;
+  margin-left: auto;
+  width: 70%;
 }
 .home-page__infographics {
   height: 60vh;
@@ -67,7 +70,7 @@
 .title::after {
   content: " ";
   background: rgba(231, 36, 36, 1);
-  height: 2px;
+  height: 1px;
   width: 64px;
   display: block;
   margin: 34px auto;
