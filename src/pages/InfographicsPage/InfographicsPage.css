@@ -1,0 +1,17 @@
+.infographics__main {
+  box-sizing: border-box;
+  display: grid;
+  height: 85vh;
+  grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(25%, 1fr));
+  grid-gap: 2rem;
+}
+
+.infographics__title {
+  margin-bottom: 2rem;
+}
+
+.infographics-page {
+  height: 100vh;
+  padding: 2rem 0;
+}
