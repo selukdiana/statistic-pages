@@ -18,7 +18,7 @@
   content: " ";
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 251, 251, 0.55);
+  background-color: rgba(255, 251, 251, 0.2);
   position: absolute;
   top: 0;
   left: 0;
@@ -32,7 +32,8 @@
 }
 .home-page__infographics {
   height: 60vh;
-  padding: 30px 0;
+  padding: 30px 0 0;
+  background-color: #f5f7f9;
 }
 
 .infographics__subtitle {
@@ -45,8 +46,8 @@
 }
 
 .home-page__branches {
-  min-height: 45vh;
-  padding: 0 0 100px;
+  height: 40vh;
+  padding: 30px 0 70px;
 }
 
 .branches__info {
@@ -67,15 +68,7 @@
   text-align: center;
 }
 
-.title::after {
-  content: " ";
-  background: rgba(231, 36, 36, 1);
-  height: 1px;
-  width: 64px;
-  display: block;
-  margin: 34px auto;
-}
-
 .title {
   text-transform: uppercase;
+  margin-bottom: 4rem;
 }

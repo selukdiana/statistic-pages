@@ -25,7 +25,6 @@ export const HomePage = () => {
       <div className="home-page__infographics">
         <div className="container">
           <h2 className="title">Инфографика</h2>
-          <h3 className="infographics__subtitle">Основные показатели</h3>
           <div className="infographics__indicators">
             <InfographicsItem
               title={"ВВП в сопоставимых ценах"}

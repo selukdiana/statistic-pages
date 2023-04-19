@@ -4,7 +4,7 @@ import "./InfographicsGridElement.css";
 export const InfographicsGridElement = ({ title, info = "Lorem" }) => {
   const navigate = useNavigate();
   const onClickHandler = () => {
-    navigate("info", { replace: false });
+    navigate("info", { replace: true });
   };
   return (
     <div className="infographics-grid-element" onClick={onClickHandler}>

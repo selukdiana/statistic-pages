@@ -1,0 +1,15 @@
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.chart {
+  width: 40%;
+}
+
+.info-page {
+  background-color: rgba(47, 63, 108, 0.05);
+  padding: 0.1rem 0;
+  height: 100vh;
+}

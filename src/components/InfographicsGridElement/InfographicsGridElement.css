@@ -1,20 +1,23 @@
 .infographics-grid-element {
-  border: 1px rgb(15, 14, 14);
-  box-shadow: 0px 0px 4px 1px rgba(34, 60, 80, 0.274);
-  display: flex;
+  /* border: 1px solid rgb(15, 14, 14); */
+  /* box-shadow: 0px 0px 4px 1px rgba(34, 60, 80, 0.274); */
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   transition: all 0.2s;
   cursor: pointer;
-  padding: 1.5rem 0rem 0rem 1rem;
-  transition: all 0.2s;
+  padding: 1.5rem 1rem 0;
+  border-radius: 5px;
+  color: #4f4949;
 }
 .infographics-grid-element:hover {
-  transform: translateY(-1%);
+  /* transform: translateY(-1%); */
+  transform: scale(1.01);
   box-shadow: 0px 0px 9px 2px white;
   /* box-shadow: none; */
   /* background-color: rgb(220, 240, 250); */
-  background-color: white;
+  background-color: #2f3f6c !important;
+  color: white;
 }
 
 .grid-element__title {
@@ -22,14 +25,14 @@
   text-align: left;
   margin: 0;
   flex-shrink: 1;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   transition: all 0.2s;
   font-weight: 700;
   font-size: 1rem;
   position: relative;
 }
 
-.grid-element__title::after {
+/* .grid-element__title::after {
   content: " ";
   background: rgb(126, 211, 253);
   height: 2px;
@@ -41,7 +44,7 @@
   position: absolute;
   top: 100%;
   left: 0;
-}
+} */
 
 .grid-element__info p {
   text-align: left;
