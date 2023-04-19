@@ -7,6 +7,7 @@ import "./InfoPage.css";
 export const InfoPage = () => {
   return (
     <div className="info-page">
+      <button className="info-page__btn">Выгрузить</button>
       <h2>Количество промышленных предприятий по областям</h2>
       <div className="charts" style={{ height: "90vh" }}>
         <Chart />

@@ -1,8 +1,8 @@
 {
+  "homepage": "https://selukdiana.github.io/statistic-pages",
   "name": "statistic-pages",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://selukdiana.github.io/statistic-pages",
   "dependencies": {
     "@amcharts/amcharts5": "^5.3.11",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
