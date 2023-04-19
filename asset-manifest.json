@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/statistic-pages/static/css/main.a7998340.css",
+    "main.css": "/statistic-pages/static/css/main.e605979b.css",
     "main.js": "/statistic-pages/static/js/main.01995b4f.js",
     "static/media/nebo-oduvanchik-cvetok-fon.jpg": "/statistic-pages/static/media/nebo-oduvanchik-cvetok-fon.4a017a1e0bf6f3325c9d.jpg",
     "index.html": "/statistic-pages/index.html",
-    "main.a7998340.css.map": "/statistic-pages/static/css/main.a7998340.css.map",
+    "main.e605979b.css.map": "/statistic-pages/static/css/main.e605979b.css.map",
     "main.01995b4f.js.map": "/statistic-pages/static/js/main.01995b4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7998340.css",
+    "static/css/main.e605979b.css",
     "static/js/main.01995b4f.js"
   ]
 }
